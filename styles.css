@@ -1,0 +1,203 @@
+/* Body styles */
+body {
+    font-family: Georgia, serif;
+    font-weight: 600;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*  style layout */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.artist-info {
+    display: flex;
+    align-items: center;
+    gap: 60px; 
+}
+
+.artist-photo {
+    max-width: 400px;
+    height: auto;
+}
+
+.artist-text {
+    flex-grow: 1; 
+}
+
+.artist-info {
+    margin-bottom: 10rem; 
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #222;
+    color: #fff;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #0077cc;
+    cursor: pointer;
+}
+
+h2 {
+    color: #222;
+    margin-bottom: 35px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 800;
+    text-align: center;
+    font-size: 4rem;
+}
+
+h3 {
+    color: #222;
+    margin-bottom: 35px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+
+#index,
+#portraits,
+#creativity,
+#business,
+#smediamanagement {
+    margin-bottom: 20rem; 
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+#hero {
+    background-color: #f2f2f2;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex-basis: 30%;
+    margin-bottom: 30px;
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 20px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #0077cc;
+}
+
+.footer-bottom {
+    background-color: #111;
+    color: #ccc;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.8rem;
+}

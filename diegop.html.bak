@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posty</title>
+    <link rel="stylesheet" href="bigimage.css">
+</head>
+<body>
+    <!-- Close Button -->
+    <a href="portraits.html" class="close-btn">x</a>
+
+    <!-- Full Size Image -->
+    <div class="full-size-image">
+        <img src="diegop.jpg" alt="diegop">
+    </div>
+
+    <!-- Navigation Arrows -->
+    <a href="diegop.html" class="prev">&lt;</a>
+    <a href="diegop.html" class="next">&gt;</a>
+
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>
